@@ -1,0 +1,18 @@
+C:\Users\Bryan J. Campos\Desktop\ProyectoNetCore\Dominio\bin\Debug\netcoreapp3.1\Dominio.deps.json
+C:\Users\Bryan J. Campos\Desktop\ProyectoNetCore\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\Bryan J. Campos\Desktop\ProyectoNetCore\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\Bryan J. Campos\Desktop\ProyectoNetCore\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+C:\Users\Bryan J. Campos\Desktop\ProyectoNetCore\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+C:\Users\Bryan J. Campos\Desktop\ProyectoNetCore\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Bryan J. Campos\Desktop\ProyectoNetCore\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\Bryan J. Campos\Desktop\ProyectoNetCore\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\Bryan J. Campos\Desktop\ProyectoNetCore\Dominio\obj\Debug\netcoreapp3.1\Dominio.csprojAssemblyReference.cache
+C:\Users\Bryan J. Campos\Desktop\Proyectos en Marcha\ProyectoNetCore\Dominio\bin\Debug\netcoreapp3.1\Dominio.deps.json
+C:\Users\Bryan J. Campos\Desktop\Proyectos en Marcha\ProyectoNetCore\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\Bryan J. Campos\Desktop\Proyectos en Marcha\ProyectoNetCore\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\Bryan J. Campos\Desktop\Proyectos en Marcha\ProyectoNetCore\Dominio\obj\Debug\netcoreapp3.1\Dominio.csprojAssemblyReference.cache
+C:\Users\Bryan J. Campos\Desktop\Proyectos en Marcha\ProyectoNetCore\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+C:\Users\Bryan J. Campos\Desktop\Proyectos en Marcha\ProyectoNetCore\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+C:\Users\Bryan J. Campos\Desktop\Proyectos en Marcha\ProyectoNetCore\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Bryan J. Campos\Desktop\Proyectos en Marcha\ProyectoNetCore\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\Bryan J. Campos\Desktop\Proyectos en Marcha\ProyectoNetCore\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
