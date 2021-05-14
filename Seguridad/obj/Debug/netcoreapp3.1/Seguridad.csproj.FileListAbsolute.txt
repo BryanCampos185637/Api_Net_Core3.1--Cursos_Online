@@ -30,3 +30,19 @@ C:\Users\Bryan J. Campos\Desktop\Proyectos en Marcha\ProyectoNetCore\Seguridad\o
 C:\Users\Bryan J. Campos\Desktop\Proyectos en Marcha\ProyectoNetCore\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.csproj.CopyComplete
 C:\Users\Bryan J. Campos\Desktop\Proyectos en Marcha\ProyectoNetCore\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.dll
 C:\Users\Bryan J. Campos\Desktop\Proyectos en Marcha\ProyectoNetCore\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.pdb
+C:\Users\Bryan J. Campos\Documents\GitHub\Api_Net_Core3.1--Cursos_Online\Seguridad\bin\Debug\netcoreapp3.1\Seguridad.deps.json
+C:\Users\Bryan J. Campos\Documents\GitHub\Api_Net_Core3.1--Cursos_Online\Seguridad\bin\Debug\netcoreapp3.1\Seguridad.dll
+C:\Users\Bryan J. Campos\Documents\GitHub\Api_Net_Core3.1--Cursos_Online\Seguridad\bin\Debug\netcoreapp3.1\Seguridad.pdb
+C:\Users\Bryan J. Campos\Documents\GitHub\Api_Net_Core3.1--Cursos_Online\Seguridad\bin\Debug\netcoreapp3.1\Aplicacion.dll
+C:\Users\Bryan J. Campos\Documents\GitHub\Api_Net_Core3.1--Cursos_Online\Seguridad\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\Bryan J. Campos\Documents\GitHub\Api_Net_Core3.1--Cursos_Online\Seguridad\bin\Debug\netcoreapp3.1\Persistencia.dll
+C:\Users\Bryan J. Campos\Documents\GitHub\Api_Net_Core3.1--Cursos_Online\Seguridad\bin\Debug\netcoreapp3.1\Aplicacion.pdb
+C:\Users\Bryan J. Campos\Documents\GitHub\Api_Net_Core3.1--Cursos_Online\Seguridad\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\Bryan J. Campos\Documents\GitHub\Api_Net_Core3.1--Cursos_Online\Seguridad\bin\Debug\netcoreapp3.1\Persistencia.pdb
+C:\Users\Bryan J. Campos\Documents\GitHub\Api_Net_Core3.1--Cursos_Online\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.csprojAssemblyReference.cache
+C:\Users\Bryan J. Campos\Documents\GitHub\Api_Net_Core3.1--Cursos_Online\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.AssemblyInfoInputs.cache
+C:\Users\Bryan J. Campos\Documents\GitHub\Api_Net_Core3.1--Cursos_Online\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.AssemblyInfo.cs
+C:\Users\Bryan J. Campos\Documents\GitHub\Api_Net_Core3.1--Cursos_Online\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.csproj.CoreCompileInputs.cache
+C:\Users\Bryan J. Campos\Documents\GitHub\Api_Net_Core3.1--Cursos_Online\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.csproj.CopyComplete
+C:\Users\Bryan J. Campos\Documents\GitHub\Api_Net_Core3.1--Cursos_Online\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.dll
+C:\Users\Bryan J. Campos\Documents\GitHub\Api_Net_Core3.1--Cursos_Online\Seguridad\obj\Debug\netcoreapp3.1\Seguridad.pdb

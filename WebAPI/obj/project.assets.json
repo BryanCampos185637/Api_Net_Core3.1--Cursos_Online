@@ -5940,11 +5940,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bryan J. Campos\\Desktop\\Proyectos en Marcha\\ProyectoNetCore\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Bryan J. Campos\\Documents\\GitHub\\Api_Net_Core3.1--Cursos_Online\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\Bryan J. Campos\\Desktop\\Proyectos en Marcha\\ProyectoNetCore\\WebAPI\\WebAPI.csproj",
+      "projectPath": "C:\\Users\\Bryan J. Campos\\Documents\\GitHub\\Api_Net_Core3.1--Cursos_Online\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\Bryan J. Campos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bryan J. Campos\\Desktop\\Proyectos en Marcha\\ProyectoNetCore\\WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\Bryan J. Campos\\Documents\\GitHub\\Api_Net_Core3.1--Cursos_Online\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bryan J. Campos\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5961,11 +5961,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Bryan J. Campos\\Desktop\\Proyectos en Marcha\\ProyectoNetCore\\Aplicacion\\Aplicacion.csproj": {
-              "projectPath": "C:\\Users\\Bryan J. Campos\\Desktop\\Proyectos en Marcha\\ProyectoNetCore\\Aplicacion\\Aplicacion.csproj"
+            "C:\\Users\\Bryan J. Campos\\Documents\\GitHub\\Api_Net_Core3.1--Cursos_Online\\Aplicacion\\Aplicacion.csproj": {
+              "projectPath": "C:\\Users\\Bryan J. Campos\\Documents\\GitHub\\Api_Net_Core3.1--Cursos_Online\\Aplicacion\\Aplicacion.csproj"
             },
-            "C:\\Users\\Bryan J. Campos\\Desktop\\Proyectos en Marcha\\ProyectoNetCore\\Seguridad\\Seguridad.csproj": {
-              "projectPath": "C:\\Users\\Bryan J. Campos\\Desktop\\Proyectos en Marcha\\ProyectoNetCore\\Seguridad\\Seguridad.csproj"
+            "C:\\Users\\Bryan J. Campos\\Documents\\GitHub\\Api_Net_Core3.1--Cursos_Online\\Seguridad\\Seguridad.csproj": {
+              "projectPath": "C:\\Users\\Bryan J. Campos\\Documents\\GitHub\\Api_Net_Core3.1--Cursos_Online\\Seguridad\\Seguridad.csproj"
             }
           }
         }

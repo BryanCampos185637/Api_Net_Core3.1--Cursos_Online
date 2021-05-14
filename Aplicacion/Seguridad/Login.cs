@@ -6,6 +6,7 @@ using MediatR;
 using Microsoft.AspNetCore.Identity;
 using FluentValidation;
 using Aplicacion.Contratos;
+using System.Collections.Generic;
 
 namespace Aplicacion.Seguridad
 {
@@ -45,13 +46,14 @@ namespace Aplicacion.Seguridad
                 }
                 //validamos la contraseña
                 var rpt = await signInManager.CheckPasswordSignInAsync(usuario, request.Password, false);
+                var listaRoles = await userManager.GetRolesAsync(usuario);
                 if (rpt.Succeeded)
                 {
                     return new UsuarioData
                     {
                         NombreCompleto = usuario.NombreCompleto,
                         Email = usuario.Email,
-                        Token = jwtGenerador.CrearToken(usuario),
+                        Token = jwtGenerador.CrearToken(usuario, new List<string>(listaRoles)),
                         UserName = usuario.UserName,
                         Imagen = null
                     };

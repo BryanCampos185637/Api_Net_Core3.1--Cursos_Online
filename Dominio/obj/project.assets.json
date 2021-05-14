@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bryan J. Campos\\Desktop\\Proyectos en Marcha\\ProyectoNetCore\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\Bryan J. Campos\\Documents\\GitHub\\Api_Net_Core3.1--Cursos_Online\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "C:\\Users\\Bryan J. Campos\\Desktop\\Proyectos en Marcha\\ProyectoNetCore\\Dominio\\Dominio.csproj",
+      "projectPath": "C:\\Users\\Bryan J. Campos\\Documents\\GitHub\\Api_Net_Core3.1--Cursos_Online\\Dominio\\Dominio.csproj",
       "packagesPath": "C:\\Users\\Bryan J. Campos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bryan J. Campos\\Desktop\\Proyectos en Marcha\\ProyectoNetCore\\Dominio\\obj\\",
+      "outputPath": "C:\\Users\\Bryan J. Campos\\Documents\\GitHub\\Api_Net_Core3.1--Cursos_Online\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bryan J. Campos\\AppData\\Roaming\\NuGet\\NuGet.Config",

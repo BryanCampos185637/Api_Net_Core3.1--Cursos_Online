@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YuZemjRi/L/9aWso/cFdyrXQm+MjfeRGMuEO4EEvzp7xi9IkVShxwALr+MlDmI2HWPfYvzlCMD+3ZNIa1208Qw==",
+  "dgSpecHash": "1aW+m4Ws8v2MsVAvZjeVlsAGaqCd9narzTP/SkllO46K6M57GjYU66qKz+VIlG6q0sPhWidh901+Q+yP/XbP+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bryan J. Campos\\Desktop\\Proyectos en Marcha\\ProyectoNetCore\\Persistencia\\Persistencia.csproj",
+  "projectFilePath": "C:\\Users\\Bryan J. Campos\\Documents\\GitHub\\Api_Net_Core3.1--Cursos_Online\\Persistencia\\Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bryan J. Campos\\.nuget\\packages\\dapper\\2.0.4\\dapper.2.0.4.nupkg.sha512",
     "C:\\Users\\Bryan J. Campos\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.1\\microsoft.aspnetcore.cryptography.internal.3.1.1.nupkg.sha512",

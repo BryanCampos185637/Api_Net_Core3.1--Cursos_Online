@@ -17,7 +17,7 @@ namespace Aplicacion.Seguridad
             public string Nombre { get; set; }
         }
         public class validaEjecuta: AbstractValidator<Ejecuta>
-            {
+        {
             public validaEjecuta()
             {
                 RuleFor(p => p.Nombre).NotEmpty();

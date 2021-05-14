@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ff9I0/qOC1kT1YQ5CB6N/ZHgc42NMpmterF8fJMJi8XSAo13k4oMADkZGZrz/CYV0p5BAD4ei9j53yNIanYD9Q==",
+  "dgSpecHash": "oJWABiSUEb890BI5X1wBqeuIazZ7IOd5fSzUapO4lzkWSXPIac0/eCTf1hGMs9TCAVf/d5VyeQnAuTBfL/4Kog==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bryan J. Campos\\Desktop\\Proyectos en Marcha\\ProyectoNetCore\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\Bryan J. Campos\\Documents\\GitHub\\Api_Net_Core3.1--Cursos_Online\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bryan J. Campos\\.nuget\\packages\\automapper\\8.1.1\\automapper.8.1.1.nupkg.sha512",
     "C:\\Users\\Bryan J. Campos\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.1.1\\automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512",

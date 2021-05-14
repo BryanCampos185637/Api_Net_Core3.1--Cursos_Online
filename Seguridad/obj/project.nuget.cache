@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gCt66W+JeyNZbYfoztSN11b3Q7N5Zg6S++kscqzYaFGsESiXFqXO1V6PmLKy8T6CICT1tm+4f7LR2TkrUHArdg==",
+  "dgSpecHash": "Ky5DDAGorb5m0dMh70iEVfA0n2rsspA0Qtsz2hVi0gpVQ242WxcSAa8HkCeatKg4rOiQPXdsw06VIXYuy/I9Bw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bryan J. Campos\\Desktop\\Proyectos en Marcha\\ProyectoNetCore\\Seguridad\\Seguridad.csproj",
+  "projectFilePath": "C:\\Users\\Bryan J. Campos\\Documents\\GitHub\\Api_Net_Core3.1--Cursos_Online\\Seguridad\\Seguridad.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bryan J. Campos\\.nuget\\packages\\automapper\\8.1.1\\automapper.8.1.1.nupkg.sha512",
     "C:\\Users\\Bryan J. Campos\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.1.1\\automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512",

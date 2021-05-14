@@ -2,7 +2,7 @@
 using Dominio;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
-using System;
+using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -29,11 +29,12 @@ namespace Aplicacion.Seguridad
             public async Task<UsuarioData> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
                 var usuario = await userManager.FindByNameAsync(usuarioSesion.ObtenerUsuarioSesion());
+                var listaRoles = await userManager.GetRolesAsync(usuario);
                 return new UsuarioData
                 {
                     UserName = usuario.UserName,
                     NombreCompleto = usuario.NombreCompleto,
-                    Token = jwtGenerador.CrearToken(usuario),
+                    Token = jwtGenerador.CrearToken(usuario,new List<string>(listaRoles)),
                     Imagen = null,
                     Email = usuario.Email
                 };

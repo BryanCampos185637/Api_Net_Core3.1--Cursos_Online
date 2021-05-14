@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "21Gf9G67HUtinBMOp+VcHijAxt7RwI1ns486aj3FMdg0d8pIVDq95z6EZdRYHFnnSFvLwH2gMQXIxc1pj32QSA==",
+  "dgSpecHash": "3xrrcbMxbFJUAzVGPBeOh2yFEfdSYdvvd/kESH6PtNrWDnHnRGyIYHTlogWfOa30WhSYlam8Xof7LHK12TiKhQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bryan J. Campos\\Desktop\\Proyectos en Marcha\\ProyectoNetCore\\Dominio\\Dominio.csproj",
+  "projectFilePath": "C:\\Users\\Bryan J. Campos\\Documents\\GitHub\\Api_Net_Core3.1--Cursos_Online\\Dominio\\Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -11,12 +11,22 @@ namespace Seguridad
 {
     public class JwtGenerador : IJwtGenerador
     {
-        public string CrearToken(Usuario usuario)
+        public string CrearToken(Usuario usuario, List<string> roles)
         {
             #region logica para crear token
-            var claims = new List<Claim>{
-                new Claim(JwtRegisteredClaimNames.NameId,usuario.UserName)
+            var claims = new List<Claim>
+            {
+                new Claim(JwtRegisteredClaimNames.NameId, usuario.UserName)
             };
+
+            if (roles != null && roles.Count > 0) 
+            {
+                foreach(var rol in roles)
+                {
+                    claims.Add(new Claim(ClaimTypes.Role, rol));
+                }
+            }
+
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Mi palabra secreta"));//esta es la palabra secreta del token
             var credenciales = new SigningCredentials(key, SecurityAlgorithms.HmacSha512Signature);
             var tokenDescripcion = new SecurityTokenDescriptor
