@@ -2,7 +2,6 @@ using System.Threading.Tasks;
 using Aplicacion.Seguridad;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
-using MediatR;
 
 namespace WebAPI.Controllers
 {
@@ -25,6 +24,10 @@ namespace WebAPI.Controllers
         {
             return await Mediador.Send(new UsuarioActual.Ejecuta ());
         }
-        
+        [HttpPut]
+        public async Task<ActionResult<UsuarioData>> modificarUsuario(UsuarioActualizar.Ejecuta parametros)
+        {
+            return await Mediador.Send(parametros);
+        }
     }
 }

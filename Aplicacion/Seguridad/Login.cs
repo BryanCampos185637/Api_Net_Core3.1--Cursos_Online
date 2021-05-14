@@ -46,7 +46,7 @@ namespace Aplicacion.Seguridad
                 }
                 //validamos la contraseña
                 var rpt = await signInManager.CheckPasswordSignInAsync(usuario, request.Password, false);
-                var listaRoles = await userManager.GetRolesAsync(usuario);
+                var listaRoles = await userManager.GetRolesAsync(usuario);//buscamos los roles que tenga asignado
                 if (rpt.Succeeded)
                 {
                     return new UsuarioData
