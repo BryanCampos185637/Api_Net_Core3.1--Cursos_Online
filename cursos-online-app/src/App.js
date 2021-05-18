@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { ThemeProvider as MuiThemeProvider }  from '@material-ui/core/styles';//librerias de material designe
+import theme from './theme/theme';//mis objetos de estilo
+import Login from "./componentes/seguridad/Login";
+import RegistrarUsuario from "./componentes/seguridad/RegistrarUsuario";
+import PerfilUsuario from "./componentes/seguridad/PerfilUsuario";
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';// para la navegacion
+import { Grid } from "@material-ui/core";
+import AppNavbar from "./componentes/navegacion/AppNavbar";
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return(
+    <Router>
+      <MuiThemeProvider theme={theme}>
+        <AppNavbar />
+        <Grid container>
+          <Switch>
+            <Route exact path="/auth/login" component={Login}/>
+            <Route exact path="/auth/registrar" component={RegistrarUsuario}/>
+            <Route exact path="/auth/perfil" component={PerfilUsuario}/>
+            <Route exact path="/" component={Login}/>
+          </Switch>
+        </Grid>
+    </MuiThemeProvider>
+    </Router>
   );
 }
 

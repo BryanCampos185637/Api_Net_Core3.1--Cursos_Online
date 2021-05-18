@@ -1,0 +1,14 @@
+C:\Users\Bryan J. Campos\Documents\GitHub\Api_Net_Core3.1--Cursos_Online\Aplicacion\bin\Release\netcoreapp3.1\Aplicacion.deps.json
+C:\Users\Bryan J. Campos\Documents\GitHub\Api_Net_Core3.1--Cursos_Online\Aplicacion\bin\Release\netcoreapp3.1\Aplicacion.dll
+C:\Users\Bryan J. Campos\Documents\GitHub\Api_Net_Core3.1--Cursos_Online\Aplicacion\bin\Release\netcoreapp3.1\Aplicacion.pdb
+C:\Users\Bryan J. Campos\Documents\GitHub\Api_Net_Core3.1--Cursos_Online\Aplicacion\bin\Release\netcoreapp3.1\Dominio.dll
+C:\Users\Bryan J. Campos\Documents\GitHub\Api_Net_Core3.1--Cursos_Online\Aplicacion\bin\Release\netcoreapp3.1\Persistencia.dll
+C:\Users\Bryan J. Campos\Documents\GitHub\Api_Net_Core3.1--Cursos_Online\Aplicacion\bin\Release\netcoreapp3.1\Dominio.pdb
+C:\Users\Bryan J. Campos\Documents\GitHub\Api_Net_Core3.1--Cursos_Online\Aplicacion\bin\Release\netcoreapp3.1\Persistencia.pdb
+C:\Users\Bryan J. Campos\Documents\GitHub\Api_Net_Core3.1--Cursos_Online\Aplicacion\obj\Release\netcoreapp3.1\Aplicacion.csprojAssemblyReference.cache
+C:\Users\Bryan J. Campos\Documents\GitHub\Api_Net_Core3.1--Cursos_Online\Aplicacion\obj\Release\netcoreapp3.1\Aplicacion.AssemblyInfoInputs.cache
+C:\Users\Bryan J. Campos\Documents\GitHub\Api_Net_Core3.1--Cursos_Online\Aplicacion\obj\Release\netcoreapp3.1\Aplicacion.AssemblyInfo.cs
+C:\Users\Bryan J. Campos\Documents\GitHub\Api_Net_Core3.1--Cursos_Online\Aplicacion\obj\Release\netcoreapp3.1\Aplicacion.csproj.CoreCompileInputs.cache
+C:\Users\Bryan J. Campos\Documents\GitHub\Api_Net_Core3.1--Cursos_Online\Aplicacion\obj\Release\netcoreapp3.1\Aplicacion.csproj.CopyComplete
+C:\Users\Bryan J. Campos\Documents\GitHub\Api_Net_Core3.1--Cursos_Online\Aplicacion\obj\Release\netcoreapp3.1\Aplicacion.dll
+C:\Users\Bryan J. Campos\Documents\GitHub\Api_Net_Core3.1--Cursos_Online\Aplicacion\obj\Release\netcoreapp3.1\Aplicacion.pdb

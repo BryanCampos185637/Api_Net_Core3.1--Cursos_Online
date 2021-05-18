@@ -39,34 +39,48 @@ namespace WebAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers(opt=>
+            #region controller
+            services.AddControllers(opt =>
             {
                 var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
                 opt.Filters.Add(new AuthorizeFilter(policy));//valida que este autenticado para usar los metodos de los controles
             }).AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<Nuevo>()); //validaciones 
-            //mis servicios DbContext
+            #endregion
+
+            #region mis servicios DbContext
             services.AddDbContext<CursosOnlineContext>(p =>
             {//se pasa la conexion de la base de datos
                 p.UseSqlServer(Configuration.GetConnectionString("Default"));
             });
-            //conexion a la base de datos con dapper
+            #endregion
+
+            #region conexion a la base de datos con dapper
             services.Configure<ConexionConfiguracion>(Configuration.GetSection("ConnectionStrings"));
             services.AddOptions();
-            //configuracion de servicio IMediator
+            #endregion
+
+            #region configuracion de servicio IMediator
             services.AddMediatR(typeof(Consulta.Manejador).Assembly);//dominio/curso/consulta
-            //configuracion de core identity
+            #endregion
+
+            #region configuracion de core identity
             var builder = services.AddIdentityCore<Usuario>();
             var identityBuilder = new IdentityBuilder(builder.UserType, builder.Services);
-            //identity role
+            #endregion
+
+            #region identity role
             identityBuilder.AddRoles<IdentityRole>();
             identityBuilder.AddClaimsPrincipalFactory<UserClaimsPrincipalFactory<Usuario, IdentityRole>>();
             identityBuilder.AddEntityFrameworkStores<CursosOnlineContext>();
             identityBuilder.AddSignInManager<SignInManager<Usuario>>();//va manejar login
             services.TryAddSingleton<ISystemClock, SystemClock>();
-            
-            //inyeccion para la creacion de tokens
+            #endregion
+
+            #region inyeccion para la creacion de tokens
             services.AddScoped<IJwtGenerador, JwtGenerador>();
-            //seguridad utilizando los tokens
+            #endregion
+
+            #region seguridad utilizando los tokens
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Mi palabra secreta"));
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opt=> {
                 opt.TokenValidationParameters = new TokenValidationParameters
@@ -77,16 +91,26 @@ namespace WebAPI
                     ValidateIssuer = false
                 };
             });
-            //obtener el nombre del usuario
+            #endregion
+
+            #region obtener el nombre del usuario
             services.AddScoped<IUsuarioSesion, UsuarioSesion>();
-            //servicio de AutoMapper
+            #endregion
+
+            #region servicio de AutoMapper
             services.AddAutoMapper(typeof(Consulta.Manejador));
-            //conexion de dapper al arrancar la api
+            #endregion
+
+            #region conexion de dapper al arrancar la api
             services.AddTransient<IFactoryConnection, FactoryConnection>();
             services.AddScoped<IInstructor, InstructorRepositorio>();
-            //paginacion
+            #endregion
+
+            #region paginacion
             services.AddScoped<IPaginacion, PaginacionRepositorio>();
-            //usar swagger
+            #endregion
+
+            #region swagger
             services.AddSwaggerGen(p =>
             {
                 p.SwaggerDoc("v1", new OpenApiInfo
@@ -96,6 +120,14 @@ namespace WebAPI
                 });
                 p.CustomSchemaIds(p => p.FullName);
             });
+            #endregion
+
+            #region cors
+            services.AddCors(p => p.AddPolicy("corsApp", builder =>
+            {
+                builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+            }));
+            #endregion
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -116,6 +148,8 @@ namespace WebAPI
             app.UseAuthorization();
 
             app.UseAuthentication();
+
+            app.UseCors("corsApp");
 
             app.UseEndpoints(endpoints =>
             {

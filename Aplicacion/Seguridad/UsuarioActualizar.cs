@@ -17,8 +17,7 @@ namespace Aplicacion.Seguridad
     {
         public class Ejecuta:IRequest<UsuarioData> 
         {
-            public string Nombre { get; set; }
-            public string Apellidos { get; set; }
+            public string NombreCompleto { get; set; }
             public string Email { get; set; }
             public string Password { get; set; }
             public string UserName { get; set; }
@@ -27,8 +26,7 @@ namespace Aplicacion.Seguridad
         {
             public EjecutaValidator()
             {
-                RuleFor(p => p.Apellidos).NotEmpty();
-                RuleFor(p => p.Nombre).NotEmpty();
+                RuleFor(p => p.NombreCompleto).NotEmpty();
                 RuleFor(p => p.Email).NotEmpty();
                 RuleFor(p => p.Password).NotEmpty();
                 RuleFor(p => p.UserName).NotEmpty();
@@ -59,7 +57,7 @@ namespace Aplicacion.Seguridad
                 #endregion
 
                 #region modificacion
-                usuarioId.NombreCompleto = request.Nombre + " " + request.Apellidos;
+                usuarioId.NombreCompleto = request.NombreCompleto;
                 usuarioId.PasswordHash = passwordHasher.HashPassword(usuarioId, request.Password);
                 usuarioId.Email = request.Email;
                 var rpt = await userManager.UpdateAsync(usuarioId);

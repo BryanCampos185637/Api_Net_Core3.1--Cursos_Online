@@ -19,8 +19,7 @@ namespace Aplicacion.Seguridad
         public class Ejecuta: IRequest<UsuarioData>
         {
             public string UserName { get; set; }
-            public string Nombres { get; set; }
-            public string Apellidos { get; set; }
+            public string NombreCompleto { get; set; }
             public string Email { get; set; }
             public string Password { get; set; }
         }
@@ -28,9 +27,8 @@ namespace Aplicacion.Seguridad
         {
             public EjecutaValidador()
             {
-                RuleFor(p => p.Nombres).NotEmpty();
+                RuleFor(p => p.NombreCompleto).NotEmpty();
                 RuleFor(p => p.UserName).NotEmpty();
-                RuleFor(p => p.Apellidos).NotEmpty();
                 RuleFor(p => p.Email).NotEmpty();
                 RuleFor(p => p.Password).NotEmpty();
             }
@@ -56,7 +54,7 @@ namespace Aplicacion.Seguridad
                     throw new ManejadorExcepcion(HttpStatusCode.BadRequest, new { mensaje = "El Nombre de usuario ingresado ya esta en uso" });
                 var usuario = new Usuario
                 {
-                    NombreCompleto= request.Nombres+" "+request.Apellidos,
+                    NombreCompleto= request.NombreCompleto,
                     Email= request.Email,
                     UserName= request.UserName
                 };
