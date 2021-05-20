@@ -1,6 +1,6 @@
 import { Avatar, Button, IconButton, makeStyles, Toolbar, Typography } from "@material-ui/core";
 import React from "react";
-import logo from '../../../logo.svg'; 
+import fotoUsuario from '../../../logo.svg'; 
 
 const useStyle = makeStyles((theme) => ({
   seccionDesktop: {
@@ -36,9 +36,17 @@ const BarSession = () => {
 
       <div className={clases.grow}></div>
 
-      <Button color="inherit">Salir</Button>
-      <Button color="inherit">{"Nombre de usuario"}</Button>
-      <Avatar src={logo}></Avatar>
+      <div className={clases.seccionDesktop}>
+        <Button color="inherit">Salir</Button>
+        <Button color="inherit">{"Nombre de usuario"}</Button>
+        <Avatar src={fotoUsuario}></Avatar>
+      </div>
+      
+      <div className={clases.seccionMobile}>
+        <IconButton color="inherit">
+          <i className="material-icons">more_vert</i>
+        </IconButton>
+      </div>
     </Toolbar>
   );
 };
